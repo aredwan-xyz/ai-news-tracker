@@ -1,0 +1,33 @@
+name: Daily AI News
+
+on:
+  schedule:
+    - cron: '0 8 * * *'  # every day at 8am UTC
+  workflow_dispatch:      # allows manual trigger from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-news:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Fetch AI news
+        run: python fetch_news.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add news/
+          git diff --cached --quiet || git commit -m "feat: AI news update $(date +%Y-%m-%d)"
+          git push
