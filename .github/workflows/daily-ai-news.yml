@@ -29,5 +29,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add news/
-          git diff --cached --quiet || git commit -m "feat: AI news update $(date +%Y-%m-%d)"
+          git diff --cached --quiet || git commit -m "daily AI digest: $(date +%Y-%m-%d)"
           git push
