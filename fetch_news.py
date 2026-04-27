@@ -6,15 +6,27 @@ import os
 import re
 
 FEEDS = [
+    # Major AI Labs
+    ("Anthropic",              "https://www.anthropic.com/rss.xml"),
+    ("OpenAI News",            "https://openai.com/news/rss.xml"),
+    ("Google DeepMind",        "https://deepmind.google/blog/rss.xml"),
+    ("Google AI Blog",         "https://blog.google/technology/ai/rss/"),
+    ("Meta AI",                "https://ai.meta.com/blog/rss/"),
+    ("Microsoft AI",           "https://blogs.microsoft.com/ai/feed/"),
+    ("NVIDIA AI",              "https://blogs.nvidia.com/feed/"),
+    ("Hugging Face",           "https://huggingface.co/blog/feed.xml"),
+    ("AWS Machine Learning",   "https://aws.amazon.com/blogs/machine-learning/feed/"),
+    ("Apple ML Research",      "https://machinelearning.apple.com/rss.xml"),
+    # News & Analysis
     ("MIT Technology Review",  "https://www.technologyreview.com/feed/"),
     ("VentureBeat AI",         "https://venturebeat.com/category/ai/feed/"),
     ("AI News",                "https://www.artificialintelligence-news.com/feed/"),
     ("The Verge AI",           "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"),
     ("TechCrunch AI",          "https://techcrunch.com/category/artificial-intelligence/feed/"),
-    ("DeepMind Blog",          "https://deepmind.google/blog/rss.xml"),
-    ("OpenAI News",            "https://openai.com/news/rss.xml"),
     ("Wired",                  "https://www.wired.com/feed/rss"),
-    ("Ars Technica AI",        "https://feeds.arstechnica.com/arstechnica/index"),
+    ("Ars Technica",           "https://feeds.arstechnica.com/arstechnica/index"),
+    ("The Information AI",     "https://www.theinformation.com/feed"),
+    ("IEEE Spectrum AI",       "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss"),
 ]
 
 AI_KEYWORDS = [

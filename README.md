@@ -8,7 +8,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/aredwan-xyz/ai-news-tracker?style=social)](https://github.com/aredwan-xyz/ai-news-tracker/network/members)
 [![GitHub last commit](https://img.shields.io/github/last-commit/aredwan-xyz/ai-news-tracker?style=flat-square&color=green&label=last%20update)](https://github.com/aredwan-xyz/ai-news-tracker/commits/main)
 [![Automated](https://img.shields.io/badge/🤖%20automated-daily%208am%20UTC-blue?style=flat-square)](https://github.com/aredwan-xyz/ai-news-tracker/actions)
-[![Sources](https://img.shields.io/badge/sources-9%20feeds-orange?style=flat-square)](#sources)
+[![Sources](https://img.shields.io/badge/sources-19%20feeds-orange?style=flat-square)](#sources)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 
 **[📰 Today's Digest](#latest-digest) · [📚 Full Archive](ARCHIVE.md) · [⭐ Star this repo](https://github.com/aredwan-xyz/ai-news-tracker)**
@@ -19,10 +19,10 @@
 
 ## 💡 What is this?
 
-**AI News Tracker** automatically scrapes **9 of the best AI news sources** every morning and commits a clean, readable markdown digest to this repo — no ads, no paywalls, no noise.
+**AI News Tracker** automatically scrapes **19 of the best AI news sources** every morning and commits a clean, readable markdown digest to this repo — no ads, no paywalls, no noise.
 
 - ✅ **Zero manual effort** — GitHub Actions does everything
-- ✅ **9 top sources** in one place
+- ✅ **19 sources** in one place — labs, blogs & news
 - ✅ **Full archive** going back to day one
 - ✅ **Free forever** — no API keys, no subscriptions
 - ✅ **Forkable** — set it up for yourself in 2 minutes
@@ -37,14 +37,14 @@
 
 | # | Headline | Source |
 |---|----------|--------|
-| 1 | [Three reasons why DeepSeek’s new model matters](https://www.technologyreview.com/2026/04/24/1136422/why-deepseeks-v4-matters/) | MIT Technology Review |
-| 2 | [The Download: supercharged scams and studying AI healthcare](https://www.technologyreview.com/2026/04/24/1136400/the-download-supercharged-scams-questionable-ai-healthcare/) | MIT Technology Review |
-| 3 | [Health-care AI is here. We don’t know if it actually helps patients.](https://www.technologyreview.com/2026/04/24/1136352/health-care-ai-dont-know-actually-helps-patients/) | MIT Technology Review |
-| 4 | [The Download: introducing the Nature issue](https://www.technologyreview.com/2026/04/23/1136346/the-download-introducing-nature-issue/) | MIT Technology Review |
-| 5 | [Will fusion power get cheap? Don’t count on it.](https://www.technologyreview.com/2026/04/23/1136329/fusion-power-cost/) | MIT Technology Review |
-| 6 | [Why AI agents need interaction infrastructure](https://www.artificialintelligence-news.com/news/why-ai-agents-need-interaction-infrastructure/) | AI News |
-| 7 | [How AI models use real-time cryptocurrency data to interpret market beha…](https://www.artificialintelligence-news.com/news/how-ai-models-use-real-time-cryptocurrency-data-to-interpret-market-behaviour/) | AI News |
-| 8 | [The billion-dollar startup with a different idea for AI](https://www.artificialintelligence-news.com/news/the-billion-dollar-startup-with-a-different-idea-for-ai-ami-labs-yann-lecun/) | AI News |
+| 1 | [Our principles](https://openai.com/index/our-principles) | OpenAI News |
+| 2 | [GPT-5.5 System Card](https://openai.com/index/gpt-5-5-system-card) | OpenAI News |
+| 3 | [Introducing GPT-5.5](https://openai.com/index/introducing-gpt-5-5) | OpenAI News |
+| 4 | [Top 10 uses for Codex at work](https://openai.com/academy/top-10-use-cases-codex-for-work) | OpenAI News |
+| 5 | [How to get started with Codex](https://openai.com/academy/codex-how-to-start) | OpenAI News |
+| 6 | [Decoupled DiLoCo: A new frontier for resilient, distributed AI training](https://deepmind.google/blog/decoupled-diloco/) | Google DeepMind |
+| 7 | [Partnering with industry leaders to accelerate AI transformation](https://deepmind.google/blog/partnering-with-industry-leaders-to-accelerate-ai-transformation/) | Google DeepMind |
+| 8 | [Gemini 3.1 Flash TTS: the next generation of expressive AI speech](https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/) | Google DeepMind |
 
 _🔄 Auto-updated daily · [View full digest →](news/2026-04-27.md)_
 <!-- LATEST-END -->
@@ -53,6 +53,21 @@ _🔄 Auto-updated daily · [View full digest →](news/2026-04-27.md)_
 
 ## 📡 Sources
 
+### 🏢 Major AI Labs
+| Source | Coverage |
+|--------|----------|
+| 🟣 **Anthropic** | Claude, safety research & releases |
+| 🤖 **OpenAI** | GPT, Sora, Codex & product updates |
+| 🧠 **Google DeepMind** | Gemini, AlphaFold & frontier research |
+| 🔵 **Google AI Blog** | Google's broader AI initiatives |
+| 👥 **Meta AI** | LLaMA, open-source AI & research |
+| 🪟 **Microsoft AI** | Copilot, Azure AI & partnerships |
+| 💚 **NVIDIA AI** | GPU tech, CUDA & AI infrastructure |
+| 🤗 **Hugging Face** | Open models, datasets & ML tooling |
+| ☁️ **AWS Machine Learning** | Cloud AI services & launches |
+| 🍎 **Apple ML Research** | On-device AI & Core ML |
+
+### 📰 News & Analysis
 | Source | Coverage |
 |--------|----------|
 | 🧪 **MIT Technology Review** | AI research & breakthroughs |
@@ -60,9 +75,9 @@ _🔄 Auto-updated daily · [View full digest →](news/2026-04-27.md)_
 | 🌐 **AI News** | General AI coverage |
 | 🔺 **The Verge AI** | AI in tech & culture |
 | 🚀 **TechCrunch AI** | AI startups & product launches |
-| 🧠 **DeepMind Blog** | Research direct from DeepMind |
-| 🤖 **OpenAI News** | Releases & updates from OpenAI |
 | 📡 **Wired** | AI trends & longform analysis |
+| 🖥 **Ars Technica** | Technical AI deep-dives |
+| 📊 **IEEE Spectrum** | Engineering & AI research |
 | 🔥 **HackerNews** | Top AI stories voted by developers |
 
 ---
@@ -78,7 +93,7 @@ Every day at 8:00 AM UTC
          ▼
   fetch_news.py runs
          │
-         ├── 📡 scrapes 9 RSS feeds
+         ├── 📡 scrapes 19 RSS feeds
          ├── 🔥 filters HackerNews for AI stories
          ├── 📝 writes news/YYYY-MM-DD.md
          ├── 🔄 updates README with latest headlines
